@@ -1,0 +1,35 @@
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Halvetica, sans-serif;
+
+}
+
+ .contacts-input {
+   width: 300px;
+   height: 40px;
+   font-size: 16px;
+   padding-left: 10px;
+ }
+
+ .contactInf {
+   margin: 2%;
+ }
+
+ .infoContact{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .section_contact {
+   padding: 1%;
+   margin: 5%;
+   border: solid #3f3f3f 1px;
+   border-radius: 5px;
+   background-color: #f4f7f8;
+     font-size: 18px;
+     color: #3f3f3f;
+ }

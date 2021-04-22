@@ -5,7 +5,7 @@ import {ContactsPage} from "../pages/contacts/Contacts";
 
 export const appRoutes = [
     {
-        path: '/',
+        path: '/router',
         exact: true,
         component: HomePage
     },

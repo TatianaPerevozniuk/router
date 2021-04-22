@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 const links = [
     {
-        to: '/',
+        to: '/router',
         label: 'Home'
     },
     {

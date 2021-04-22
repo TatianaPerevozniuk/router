@@ -5,19 +5,19 @@ import {Link} from "react-router-dom";
 
 const links = [
     {
-        to: '/router',
+        to: '/router/',
         label: 'Home'
     },
     {
-        to: '/about',
+        to: '/router/about',
         label: 'About'
     },
     {
-        to: '/features',
+        to: '/router/features',
         label: 'Features'
     },
     {
-        to: '/contacts',
+        to: '/router/contacts',
         label: 'Contacts'
     }
 ];

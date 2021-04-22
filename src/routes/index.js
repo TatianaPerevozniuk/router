@@ -5,20 +5,20 @@ import {ContactsPage} from "../pages/contacts/Contacts";
 
 export const appRoutes = [
     {
-        path: '/router',
+        path: '/router/',
         exact: true,
         component: HomePage
     },
     {
-        path: '/about',
+        path: '/router/about',
         component: AboutPage
     },
     {
-        path: '/features',
+        path: '/router/features',
         component: FeaturesPage
     },
     {
-        path: '/contacts',
+        path: '/router/contacts',
         component: ContactsPage
     }
 ];

@@ -1,35 +1,49 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("../../assets/fonts/Avenir.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 
 .contacts {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: Arial, Halvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Avenir', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
 
 }
 
- .contacts-input {
-   width: 300px;
-   height: 40px;
-   font-size: 16px;
-   padding-left: 10px;
- }
+.contacts-input {
+    width: 300px;
+    height: 40px;
+    font-family: 'Avenir', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 10px;
+}
 
- .contactInf {
-   margin: 2%;
- }
+.contactInf {
+    margin: 2%;
+}
 
- .infoContact{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
- }
- .section_contact {
-   padding: 1%;
-   margin: 5%;
-   border: solid #3f3f3f 1px;
-   border-radius: 5px;
-   background-color: #f4f7f8;
-     font-size: 18px;
-     color: #3f3f3f;
- }
+.infoContact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_contact {
+    padding: 1%;
+    margin: 5%;
+    border: solid #3f3f3f 1px;
+    border-radius: 5px;
+    background-color: #e7f1ff;
+    font-size: 18px;
+    color: #3f3f3f;
+}
